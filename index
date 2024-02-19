@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio T.N.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md bg-light" id="navbar">
+    <div class="container-fluid border-bottom justify-content-between">
+        <div>
+            <a href="#" class="navbar-brand sm-icons"><img src="collection.svg" alt="collection"> Portfolio T.N.</a>
+        </div>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item px-3">
+                    <a href="#aboutme" class="nav-link active" aria-current="page">About me</a>
+                </li>
+                <li class="nav-item  px-3">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-auto">
+            <form class="d-flex" role="search">
+                <input type="search" class="form-control me-2" placeholder="Search" aria-label="search">
+                <button class="btn btn-outline-secondary" type="submit">Go!</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<div class="scrollspy-example bg-body-tertiary p-0 rounded-2" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0" data-bs-offset="60px">
+
+
+    <div class="row mb-2" id="aboutme">
+        <div class="col-md-6 p-0">
+            <div class="container p-0">
+                <img src="me.jpeg" alt="me" class="vh-100 mw-100 object-fit-cover">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-light vh-100">
+                <div class="card-header">
+                    <h2>About me</h2>
+                </div>
+                <div class="card-body">
+                    <p>Teamplayer, flexible and up for challenges is how I would describe myself.</p>
+                    <p>I am output oriented, and you can count on me. I enjoy taking up responsibilty and working in an environment where independence is valued.</p>
+                    <p>My academic background in pharmaceutical sciences prepared me for critical thinking, problem solving and a systematic approach towards the world. Through writing multiple theses and coding the statistical analysis, a interest in coding was sparked. This spark let me down the road to pursue a career in web-development.</p>
+                    <p>Coding has become a game-like occupation for me. I like solving issues and seeing the direct results of my work.</p>
+                    <p>Hopefully we can work together in the future!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2" id="skills">
+        <div class="col-md-6">
+            <div class="card border-light">
+                <div class="card-header">
+                    <h2>Skills</h2>
+                </div>
+             
+                    
+                <div class="card-body text-center">
+                    <div class="container text-center border border-secondary-subtle my-3">
+                        <h3 class="mt-2  border-bottom border-secondary-subtle pb-2">Languages</h3>
+                        <div class="container m-1 border-bottom border-secondary-subtle pb-2">
+                            <p>HTML</p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progressbar bg-success" style="width: 58%;">
+                                    58%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container m-1 border-bottom border-secondary-subtle pb-2">
+                            <p>CSS</p>
+                            <div class="progress" role="progressbar" aria-label="danger example" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progressbar bg-danger" style="width: 52%;">52%</div>
+                            </div>
+                        </div>
+                        <div class="container m-1 border-bottom border-secondary-subtle pb-2">
+                            <p>JS</p>
+                            <div class="progress" role="progressbar" aria-label="primary example" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progressbar bg-primary" style="width: 23%;">23%</div>
+                            </div>
+                        </div>
+                        <div class="container m-1 border-bottom border-secondary-subtle pb-2">
+                            <p>Bootstrap</p>
+                            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progressbar bg-warning" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                        <div class="container m-1 pb-2">
+                            <p>devtools</p>
+                            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progressbar bg-info" style="width: 13%;">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container text-center border border-secondary-subtle my-3">
+                        <h3 class="mt-2  border-bottom border-secondary-subtle pb-2">Certificates</h3>
+                        <div class="container">
+                            <p><i class="bi bi-award"></i> HTML/CSS beginner</p>
+                        </div>
+                        <div class="container">
+                            <p><i class="bi bi-award"></i> HTML/CSS Advanced</p>
+                        </div>
+                        <div class="container">
+                            <p><i class="bi bi-award"></i> Javascript beginner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container">
+                <img src="skills.jpeg" alt="skills" class="vh-100 mw-100 object-fit-cover">
+            </div>
+        </div>
+    </div>
+   
+    <div class="row mb-2" id="projects">
+        <div class="col-md-6">
+            <div class="container">
+                <img src="projects.jpeg" alt="projects" class="vh-100 mw-100 object-fit-cover">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-light">
+                <div class="card-header">
+                    <h2>Projects</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li>
+                            <div>
+                                <h5>HTML beginner challenge</h5>
+                                    <p class="ms-3"><a href="">Wolfram Alpha homepage</a></p>
+                                <h5>HTML Advanced end project</h5>
+                                    <p class="ms-3"><a href="">Jarvis</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <h5>CSS portfolio</h5>
+                            <p class="ms-3"><a href="">I want to see!</a></p>
+                        </li>
+                        <li>
+                            <h5>Javascript portfolio</h5>
+                            <p class="ms-3"><a href="">I want to see!</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid vh-100 p-5" id="contact">
+        <div class="d-flex justify-content-center">
+            <h3>Get in touch with me!</h3>
+        </div>
+        <div class="row justify-content-center m-2">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" placeholder="Naam" class="form-control w-100" id="naam">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center m-2">
+            <div class="col-md-6">
+                <input type="email" placeholder="Email" class="form-control w-100">
+            </div>
+        </div>
+        <div class="row justify-content-center m-2">
+            <div class="col-md-6">
+                <input type="number" placeholder="Phonenumber" class="form-control w-100">
+            </div>
+        </div>
+        <div class="row justify-content-center m-2">
+            <div class="col-md-6">
+                <textarea class="form-control" name="message" id="message" cols="30" rows="15" placeholder="Type your message"></textarea>
+            </div>
+        </div>
+        <div class="row justify-content-center mx-2 mt-4">
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-outline-secondary w-100" value="Send!">Send!</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- inhoud pagina:
+    - About me
+    - Skills section
+        - HTML
+        - CSS
+        - JS
+        - Bootstrap
+    - Project section
+        - Screenshots of projects
+            - Flexbox code?
+    - Contact formulier section
+        - name
+        - email
+        - message
+        - send button
+    - footer: adres etc
+-->
+
+
+
+
+</body>
+
+</html>
